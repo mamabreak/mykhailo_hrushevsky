@@ -8,21 +8,23 @@
     font-optical-sizing: auto;
 }
 
-.header_span {
+.logo_font{
     font-size: 32px;
-    text-align: center;
-    padding: 1rem;
     font-weight: 600;
     font-style: bold;
+    justify-content: left;
+    padding: 0 1.5rem 0 1.5rem;
+    display: flex;
+    color: white;
 }
 
 .header_class {
     width: 100%;
     display: flex;
-    text-align: center;
+    justify-content: left;
+    padding: 1.5rem 0 1.5rem 0;
+    background-color: #2C2C2C;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .nav_spans {
@@ -30,11 +32,14 @@
     width: 22rem;
     display: flex;
     justify-content: space-between;
-    background-color: #2C2C2C;
     border-radius: 3rem;
     color: white;
     user-select: none;
     font-weight: 500;
+}
+
+.nav_spans_text:hover {
+    cursor: pointer;
 }
 
 .nav_spans_text:hover {
