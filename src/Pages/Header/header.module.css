@@ -22,6 +22,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .nav_spans {
@@ -29,7 +30,7 @@
     width: 22rem;
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: #2C2C2C;
     border-radius: 3rem;
     color: white;
     user-select: none;
