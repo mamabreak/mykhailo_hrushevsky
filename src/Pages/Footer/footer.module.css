@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer_class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 1rem;
+}
+
+.fonts {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    color: white;
+    font-size: 20px;
+}
