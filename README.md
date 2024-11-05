@@ -1,1 +1,0 @@
-# mykhailo_hrushevsky
