@@ -1,21 +1,15 @@
 import React from 'react'
-import style from './header.module.css'
 // import { Link } from 'react-router-dom'
 
 const Header = () => {
     return(
-        <>
-            
-            <header className={`${style.header_class}`}>
-            <span className={`${style.fonts} ${style.logo_font}`}>Михайло Грушевський</span>
-                <nav className={`${style.fonts} ${style.nav_spans}`}>
-                    <span className={`${style.nav_spans_text}`}>Home</span>
-                    <span className={`${style.nav_spans_text}`}>Category 1</span>
-                    <span className={`${style.nav_spans_text}`}>Category 2</span>
-                    <span className={`${style.nav_spans_text}`}>Category 3</span>
+            <header className="w-full flex justify-left p-8 bg-[#2C2C2C] items-center ">
+            <span className="text-4xl text-white select-none items-center">Михайло Грушевський</span>
+                <nav className="py-2 px-10 w-[18rem] h-auto flex justify-between items-center rounded-[3rem] text-white select-none font-medium">
+                    <span className="cursor-pointer hover:text-gray-500 duration-500">Життєвий шлях</span>
+                    <span className="cursor-pointer hover:text-gray-500 duration-500">Пам'ятки</span>
                 </nav>
             </header>
-        </>
     )
 }
 

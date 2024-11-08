@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+  }
+
+.stories {
+    @apply w-[52rem] h-auto flex justify-between flex-row items-center text-base leading-[1.5rem];
+  }
+  
